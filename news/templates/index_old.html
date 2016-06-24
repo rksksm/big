@@ -1,0 +1,8 @@
+    {% for event in card %}
+    	{{event.text}}<br>
+    	{{event.intro_text}}<br>
+    	{{event.title}}<br>
+    	<img src="static/uploads/{{event.image}}">
+    	<br>
+        
+    {% endfor %}
